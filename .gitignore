@@ -1,0 +1,15 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos temporários e logs
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

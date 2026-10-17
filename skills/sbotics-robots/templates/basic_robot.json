@@ -1,0 +1,60 @@
+{
+  "name": "RoboBasico",
+  "blocks": [
+
+    {
+      "type": "Cube",
+      "position": { "x": 0, "y": 0, "z": 1 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "anchor": { "x": 0, "y": 0, "z": 0 },
+      "color": "ColorDarkGray"
+    },
+    {
+      "type": "Cube",
+      "position": { "x": 0, "y": 0, "z": -1 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "anchor": { "x": 0, "y": 0, "z": 0 },
+      "color": "ColorDarkGray"
+    },
+    {
+      "type": "Servomotor",
+      "position": { "x": -1, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 270, "z": 0 },
+      "anchor": { "x": 0, "y": 0, "z": 0 },
+      "name": "motor_left"
+    },
+    {
+      "type": "LargeWheel",
+      "position": { "x": -2, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 270, "z": 0 },
+      "anchor": { "x": -1, "y": 0, "z": 0 }
+    },
+    {
+      "type": "Servomotor",
+      "position": { "x": 1, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "anchor": { "x": 0, "y": 0, "z": 0 },
+      "name": "motor_right"
+    },
+    {
+      "type": "LargeWheel",
+      "position": { "x": 2, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 90, "z": 0 },
+      "anchor": { "x": 1, "y": 0, "z": 0 }
+    },
+    {
+      "type": "UltrasonicSensor",
+      "position": { "x": 0, "y": 0, "z": 2 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "anchor": { "x": 0, "y": 0, "z": 1 },
+      "name": "ultra_front"
+    },
+    {
+      "type": "ColorSensor",
+      "position": { "x": 0, "y": -1, "z": 1 },
+      "rotation": { "x": 90, "y": 0, "z": 0 },
+      "anchor": { "x": 0, "y": 0, "z": 1 },
+      "name": "color_ground"
+    }
+  ]
+}
