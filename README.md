@@ -1,4 +1,4 @@
-# sbotics-dev-skills 🤖
+# sbotics-dev-skills🤖
 
 > Coleção modular de skills inteligentes e ferramentas de engenharia reversa para a plataforma de simulação robótica **sBotics** (Olimpíada Brasileira de Robótica - OBR).
 
